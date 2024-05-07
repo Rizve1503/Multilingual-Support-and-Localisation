@@ -9,7 +9,7 @@ Then add multi-language support to the different pages in the application. This 
 Finally, test the application. The application is initially displayed in English, but the user can change the language to Bangla using the dropdown list in the navigation bar. When the user selects Ban(Bangla), the page is displayed in Bangla.
 
 
-***************************************** Program.cs: *****************************************************
+********************************************************* Program.cs: *********************************************************
 
 
 using Microsoft.AspNetCore.Mvc.Razor;
