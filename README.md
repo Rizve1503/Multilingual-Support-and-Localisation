@@ -9,9 +9,7 @@ Then add multi-language support to the different pages in the application. This 
 Finally, test the application. The application is initially displayed in English, but the user can change the language to Bangla using the dropdown list in the navigation bar. When the user selects Ban(Bangla), the page is displayed in Bangla.
 
 
-//////////////////////////////////////// Program.cs: /////////////////////////////////////////
-
-
+********************************************************************************************** Program.cs: **********************************************************************************************
 
 
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -51,7 +49,7 @@ app.Run();
 
 
 
-/////////////////////////////////////////  Lang.cshtml.cs /////////////////////////////////////////
+**********************************************************************************************  Lang.cshtml.cs **********************************************************************************************
 
 
 
@@ -79,7 +77,7 @@ public class LangModel : PageModel
     }
 
 
-///////////////////////////////////////// _ViewImports.chstml /////////////////////////////////////////
+********************************************************************************************** _ViewImports.chstml **********************************************************************************************
 
 
 
@@ -92,7 +90,7 @@ public class LangModel : PageModel
 @inject IViewLocalizer Localizer
 
 
-///////////////////////////////////////// _Layout.chstml /////////////////////////////////////////
+********************************************************************************************** _Layout.chstml **********************************************************************************************
 
 
 
@@ -162,11 +160,27 @@ public class LangModel : PageModel
 </body>
 </html>
 
+******************************************************************************** Screenshort of Privacy English Resource ********************************************************************************
 
 ![Privacy en resx](https://github.com/Rizve1503/Multilingual-Support-and-Localisation/assets/125442347/35f0a236-b395-4b2d-a283-d1ddbac3d09a)
+
+******************************************************************************** Screenshort of Privacy Bangla Resource ********************************************************************************
+
 ![Privacy bn resx](https://github.com/Rizve1503/Multilingual-Support-and-Localisation/assets/125442347/cc444be9-8cf8-400f-a14a-5185217260e5)
+
+******************************************************************************** Screenshort of Index English Resource ********************************************************************************
+
 ![Index en resx](https://github.com/Rizve1503/Multilingual-Support-and-Localisation/assets/125442347/649fb38b-d1a6-44f8-aa2e-937ef7575eee)
+
+******************************************************************************** Screenshort of Index Bangla Resource ********************************************************************************
+
 ![Index bn resx](https://github.com/Rizve1503/Multilingual-Support-and-Localisation/assets/125442347/d9bcac49-0139-4af0-a25f-2cae13c286ee)
+
+******************************************************************************** Screenshort of Layout English Resource ********************************************************************************
+
 ![_Layout en resx](https://github.com/Rizve1503/Multilingual-Support-and-Localisation/assets/125442347/76746626-25fa-4b6d-9299-79ff97a56594)
+
+******************************************************************************** Screenshort of Layout Bangla Resource ********************************************************************************
+
 ![_Layout bn resx](https://github.com/Rizve1503/Multilingual-Support-and-Localisation/assets/125442347/e562c132-2d2e-4657-a9d3-bef8d6de41f2)
 
